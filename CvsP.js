@@ -5,7 +5,7 @@ const doAysncStuff = (numero1,numero2, callback) => {
     const resultado = numero1 * numero2;
     return setTimeout(() => {//set time out para retrasar la respuesta de la funcion 
         callback(resultado);//s eretorna la funcion con el resultado
-    },500)
+    },500);
 }
 //las promesas siempretienen como parametro un resolve (para cuando se cumple)
 //y un reject para cuando falla en algunos casos basta solo con tener el resolve
